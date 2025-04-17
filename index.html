@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>vCard - Personal Portfolio</title> -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Deven Makwana" width="50">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" style="font-size: larger;" title="Deven Makwana">Deven Makwana</h1>
+
+          <p class="title">UI UX Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:djmakwana2002@gmail.com" class="contact-link">djmakwana2002@gmail...</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916353949830" class="contact-link">+91 6353949830</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">2 October, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vadodara, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" id="about" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" id="resume" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" id="project" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" id="contact" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" id="aboutcontent" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I’m Deven Makwana, a passionate and detail-oriented UI/UX Designer at the beginning of my professional
+            journey. As a fresher, I bring a strong foundation in user-centered design and a deep enthusiasm for
+            creating digital experiences that are not only visually appealing but also functional and intuitive. I’ve
+            worked on several academic and personal projects where I practiced the full design process—from conducting
+            user research and creating personas to wireframing, prototyping, and usability testing.
+          </p>
+
+          <p>My skill set
+            includes user research, information architecture, interaction design, responsive and mobile-first design,
+            accessibility, and usability analysis.I’m proficient with tools like Figma, Adobe XD, Sketch, Illustrator,
+            Photoshop, Miro, and platforms like Notion, Trello, and Maze for testing and collaboration. I love turning
+            complex problems into simple, elegant solutions and enjoy collaborating with developers, designers, and
+            product teams to bring ideas to life.
+          </p>
+          <p>
+            Always curious and constantly learning, I stay updated with the latest
+            design trends and tools to grow as a designer. I’m excited to create experiences that not only look great
+            but also feel meaningful and user-friendly.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Bringing ideas to life with user-friendly web development! Let's elevate your online presence!
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Product Photoshoot</h4>
+
+                <p class="service-item-text">
+                  Creative and high-impact product photography that captures your brand’s essence.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Responsive Web Design</h4>
+
+                <p class="service-item-text">
+                  Delivering stunning responsive web designs for all devices! Let's enhance
+                  your online presence!
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Logo</h4>
+
+                <p class="service-item-text">
+                  Custom logo design solutions that bring your brand identity to life with simplicity and style.</p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" id="resumecontent" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">WelTech Institute</h4>
+
+
+              <p class="timeline-text">UI UX</p>
+
+              <span>2024 — 2025</span>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Polytechnic college Porbandar</h4>
+              <p class="timeline-text">Diploma</p>
+
+              <span>2021 — 2024</span>
+
+
+
+            </li>
+          </ol>
+
+        </section>
+        <!-- 
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Internship</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Frontend Developer (Intern)</h4>
+              <span>
+                NickTech Solutions | 2023 Nov - 2024 Jan
+              </span>
+              <p class="timeline-text">In my frontend development experience, I created interactive e-cards using HTML,
+                CSS, and
+                JavaScript, prioritizing engaging user interfaces. I collaborated closely with the design team to ensure
+                the e-cards met both aesthetic standards and functional requirements, while also implementing responsive
+                design techniques to ensure compatibility across various devices and screen sizes.</p>
+
+            </li>
+          </ol>
+
+        </section> -->
+
+        <!-- techstack -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Tech Stack</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe XD</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI Illustrator</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photoshop</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+
+
+          </ul>
+
+        </section>
+
+        <!-- framework -->
+        <!-- 
+        <section class="skill">
+
+          <h3 class="h3 skills-title" style="margin-top: 20px;">FrameWorks And Libraies</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item"></li>
+
+            <div class="title-wrapper">
+              <h5 class="h5">Bootstrap</h5>
+              <data value="80">80%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+            </li>
+
+            <li class="skills-item" style="margin-top: 15px;">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Material UI</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+        <!-- tools -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title" style="margin-top: 20px;">Tools</h3>
+          <ul class="skills-list content-card">
+
+
+            <li class="skills-item"></li>
+
+            <div class="title-wrapper">
+              <h5 class="h5">GitHub</h5>
+              <data value="40">40%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 40%;"></div>
+            </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <section>
+          <button class="form-btn" style="margin-top: 20px;" data-form-btn>
+            <a href="Deven Makwana Resume.pdf" style="text-decoration: none; color:hsl(45, 100%, 72%);"
+              download="">Download Resume</a>
+          </button>
+        </section>
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" id="projects" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div> -->
+          <div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223567093/Web-Landing-Page-Desing">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture.PNG " alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Flight Booking Design</h3>
+
+                <p class="project-category">Figma</p>
+                <p class="project-desc">A clean, responsive UI for booking flights. Features include an intuitive search
+                  bar, filterable results, and a smooth checkout flow designed for seamless user experience across
+                  devices
+                </p>
+              </div>
+            </div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223276229/Mobile-App-Desing">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture2.PNG" alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Furniture App Design</h3>
+
+                <p class="project-category">Figma</p>
+                <p class="project-desc">A modern, minimalist app UI for browsing and purchasing furniture. Includes
+                  product galleries, detailed item views, and a streamlined cart optimized for mobile with a focus on
+                  ease of use and visual appeal.
+                </p>
+              </div>
+            </div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223270809/Dashbord">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture3.PNG" alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Dashboard Design</h3>
+
+                <p class="project-category">Adobe</p>
+                <p class="project-desc">A sleek, data-driven dashboard created in Adobe XD. Features include interactive
+                  charts, user analytics, and customizable widgets designed for clarity, efficiency, and modern
+                  aesthetics.
+                </p>
+              </div>
+            </div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223874341/Hero-Section">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture4.PNG " alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Beauty Palour Ecommere Design
+                </h3>
+
+                <p class="project-category">Figma</p>
+                <p class="project-desc">A stylish and user-friendly UI for a beauty parlour e-commerce platform.
+                  Includes service booking, product shopping, and user profile management designed for an elegant and
+                  seamless experience.
+                </p>
+              </div>
+            </div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223784601/Hero-Section">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture5.PNG " alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Watches website Design</h3>
+
+                <p class="project-category">Figma</p>
+                <p class="project-desc">A sleek and modern e-commerce UI for luxury and casual watches. Features product
+                  showcases, smooth navigation, and a refined checkout flow—designed for a premium shopping experience.
+                </p>
+              </div>
+            </div>
+            <div class="project-box">
+
+              <div class="project-item  active" style="width: 50%;" data-filter-item data-category="web development">
+
+                <a href="https://www.behance.net/gallery/223700541/Web-Desing-Landing-Page">
+
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/Capture6.PNG " alt="finance" loading="lazy">
+                  </figure>
+                </a>
+
+              </div>
+              <div style="width: 50%;">
+                <h3 class="project-title">Online Traning Design</h3>
+
+                <p class="project-category">Figma</p>
+                <p class="project-desc">A clean and intuitive UI for an online training platform. Includes course
+                  listings, progress tracking, and interactive lessons designed to enhance learning and user engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" id="contactcontent" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:djmakwana2002@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
